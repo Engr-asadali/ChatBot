@@ -1,0 +1,88 @@
+.sidebar {
+    flex: 2.5;
+    border-right: 1px solid rgba(100, 100, 100, 0.450);
+}
+
+.sidebar_upper {
+    padding: 2.5rem;
+    border-bottom: 1px solid rgba(100, 100, 100, 0.450);
+    height: 70%;
+}
+
+.sidebar_upperTop {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.5rem;
+}
+
+.logo {
+    margin-right: 1rem;
+    width: 60px;
+    height: 60px;
+}
+
+.heading {
+    font-size: 2rem;
+}
+
+.addchatbtn {
+    height: 2rem;
+    padding-right: 1rem;
+}
+
+.chatbtn {
+    background-color: rgb(90, 75, 255);
+    border: none;
+    color: white;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    width: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    border-radius: 0.5rem;
+}
+
+.querybtn {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    color: rgba(222, 222, 222, 1);
+    padding: 1.5rem;
+    width: 25rem;
+    margin: 1rem auto;
+    border-radius: 0.5rem;
+    border: 1px solid rgba(98, 98, 98, 1);
+}
+
+.querybtn img {
+    margin-right: 2rem;
+    object-fit: cover;
+    height: 1.75rem;
+}
+
+.sidebar_lower {
+    padding: 2rem;
+}
+
+.listitems {
+    margin: 0.8rem;
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+.listitemsImg {
+    margin: 1rem;
+    padding-right: 2rem;
+}
+
+.listitems:nth-child(1)>.listitemsImg {
+    margin-right: 0.5rem;
+}
+
+.listitems:nth-child(3)>.listitemsImg {
+    margin-right: 0.75rem;
+}
